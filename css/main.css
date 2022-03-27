@@ -1,0 +1,78 @@
+.container{
+  max-width: 700px;
+height: auto;
+width: auto;
+margin: auto;
+}
+body{
+background-color: rgb(212, 194, 175);
+font-size: 16px;
+color: #000; ;
+}
+#foto{
+width: 100px;
+ box-shadow: 4px 10px 100px rgba(153, 17, 206, 0.808);
+ float: left;
+}
+.my{
+  display:flex ;
+}
+@media (max-width:600px) {
+  .my {
+    display: block;
+    text-align: center;
+
+  }
+}
+.card{
+  /* border: solid 2px rgb(207, 47, 47); */
+  border-radius: 10px;
+  width: auto;
+  height: auto;
+  background-color: rgb(204, 216, 226);
+  text-align:left;
+  padding:0 0  20px;
+   box-shadow: 15px 15px 30px rgba(26, 14, 187, 0.232);
+}
+.social a{
+color: rgb(47, 34, 17);
+text-decoration: none;
+border: solid 2px rgb(216, 182, 182);
+background-color: aquamarine;
+text-shadow: #000 4px 4px 4px;
+font-style: oblique;
+}
+.social a:hover{
+  background: rgb(37, 10, 49);
+  color: blue;
+}
+
+.btn .sub{
+  background: rgb(173, 199, 165);
+   padding: 5px;
+  border-radius: 7px;
+  border: solid 1px ;
+  width: 75px;
+  margin: 5px;
+  text-align: center;
+}
+.btn .sub:hover{
+width: 120px;
+height: 50px;
+}
+.mail{
+   box-shadow: 5px 4px 50px rgba(151, 123, 21, 0.5);
+
+}
+.hobi{
+  font-size: 120%;
+text-shadow: #000 4px 4px 4px;
+}
+
+h1 u, .my, .front, .social{
+  text-shadow: #000 4px 4px 4px;
+
+}
+.form h2{
+  text-align: center;
+}
